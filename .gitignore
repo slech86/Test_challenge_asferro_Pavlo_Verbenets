@@ -1,0 +1,6 @@
+/venv/
+/.idea/
+/.pytest_cache/
+/archived_logs/
+/latest_logs/
+/reports/assets/
