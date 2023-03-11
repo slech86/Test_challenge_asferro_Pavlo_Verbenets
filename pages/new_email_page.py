@@ -8,7 +8,7 @@ import string
 
 
 class NewEmailPage(BasePage):
-    def generate_alphanum_random_string(self, length):  # генерация буквенно-цифровуй случайной строки
+    def generate_alphanum_random_string(self, length):  # генерация буквенно-цифровой случайной строки
         letters_and_digits = string.ascii_letters + string.digits
         random_string = ''.join(random.sample(letters_and_digits, length))
         return random_string
